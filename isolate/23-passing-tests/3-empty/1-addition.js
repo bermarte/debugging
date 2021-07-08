@@ -8,7 +8,7 @@ console.log('-- begin --');
  * @param {number} [y=_] - The right number.
  * @returns {number} The sum of x and y.
  */
-const add = () => {};
+const add = (x=0, y=0) => x+y;
 
 const _1_expect = 2;
 const _1_actual = add(1, 1);
